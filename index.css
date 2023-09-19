@@ -4,6 +4,7 @@ body {
     background: black;
     padding-left: 5%;
     min-height: 100vh;
+    font-family: ROBOTO, sans sérif;
 }
 
 header {
@@ -52,8 +53,6 @@ h5 {
     left: 50%;
     transform: translateX(-58%);
 
-
-
 }
 
 #Cards {
@@ -81,9 +80,6 @@ h5 {
     padding: 5px;
 }
 
-#btn-submit :hover {
-    background: plum;
-}
 
 footer {
     background: #3A753D;
@@ -94,7 +90,20 @@ footer {
     justify-content: space-around;
 }
 
-.btn {
-    color: azure;
-    padding-top: 50px;
+#btn-submit :hover {
+    background: plum;
+}
+
+.btn,
+btn-primary {
+    border: solid 3px white;
+    border-radius: 10px;
+    height: 20px;
+    width: 80px;
+    padding-top: 0.5%;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 10px;
+    color: white;
+
 }
