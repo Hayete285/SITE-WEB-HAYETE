@@ -9,12 +9,12 @@ body {
 
 header {
     background: #3A753D;
+    border: solid 3px grey;
+    border-radius: 15px;
     width: 90%;
     height: 100px;
-    text-align: center;
     text-decoration: overline underline;
     padding-top: 5px;
-
 }
 
 .container-flex {
@@ -27,7 +27,16 @@ h1,
 h2,
 p {
     font-size: 30px;
-    color: white;
+    color: gray;
+}
+
+h3 {
+    letter-spacing: 3px;
+    font-size: 30px;
+    padding-top: 2.5px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
 #img-one {
@@ -36,7 +45,6 @@ p {
     padding-left: 30%
 }
 
-h3,
 h4 {
     letter-spacing: 3px;
     font-size: 30px;
@@ -46,7 +54,7 @@ h4 {
 }
 
 h5 {
-    color: white;
+    color: grey;
     position: absolute;
     font-size: 30px;
     top: 95%;
@@ -59,6 +67,8 @@ h5 {
     margin-top: 150px;
     margin-bottom: 100px;
     background: #233D1F;
+    border: solid 3px grey;
+    border-radius: 15px;
     width: 90%;
     height: 500px;
     align-items: center;
@@ -83,6 +93,8 @@ h5 {
 
 footer {
     background: #3A753D;
+    border: solid 3px grey;
+    border-radius: 15px;
     width: 90%;
     height: 100px;
     display: flex;
