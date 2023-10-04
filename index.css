@@ -119,3 +119,5 @@ btn-primary {
     color: white;
 
 }
+
+@media screen and (max-wight: 900px) {}
